@@ -108,14 +108,14 @@ const LandingPage = () => {
       title: "Adain Acara Website",
       desc: "Website providing event organizers",
       workAs: "Frontend Developer",
-      company: "INDICO",
+      company: "Freelance",
       stacked: ["Next JS", "TailwindCSS", "Pusher"],
     },
     {
       title: "Adain Acara Dashboard",
       desc: "Dashboard management system for Adain Acara Website",
       workAs: "Frontend Developer",
-      company: "INDICO",
+      company: "Freelance",
       stacked: ["Next JS", "TailwindCSS", "Pusher"],
     },
   ];
