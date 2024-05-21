@@ -249,7 +249,8 @@ const LandingPage = () => {
             </div>
             <div className="w-2/4 py-2">
               <h1 className="text-xl lg:text-2xl font-bold text-primary-white text-center">
-                <span className="text-primary-color">03.</span> Work Experience
+                <span className="text-primary-color">03.</span> Project
+                Experience
               </h1>
             </div>
             <div className="w-1/4 border-l border-secondary-white relative">
