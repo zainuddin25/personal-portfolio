@@ -123,7 +123,7 @@ const LandingPage = () => {
   return (
     <>
       <Header />
-      <div className="w-full lg:w-3/4 mx-auto h-[600px] lg:h-screen flex justify-center items-start flex-col text-center px-6 lg:px-0">
+      <div className="w-full lg:w-3/4 mx-auto h-screen flex justify-center items-start flex-col text-center px-6 lg:px-0">
         <p className="text-xs lg:text-sm text-primary-color font-medium">
           Hello, my name is
         </p>
@@ -138,12 +138,12 @@ const LandingPage = () => {
           programming with expertise in the JavaScript programming language
         </p>
       </div>
-      <div className="w-full lg:w-3/4 h-[400px] lg:h-screen lg:px-2 mx-auto flex flex-col justify-center items-start px-6">
+      <div className="w-full lg:w-3/4 h-[500px] lg:h-screen lg:px-2 mx-auto flex flex-col justify-center items-start px-6">
         <div className="relative">
           <h1 className="text-xl lg:text-2xl font-bold text-primary-white">
             <span className="text-primary-color">01.</span> About Me
           </h1>
-          <div className="absolute top-1/2 bottom-1/2 -translate-y-1/2 -right-[250px] lg:-right-[320px] border-b w-[240px] lg:w-[300px] border-primary-white"></div>
+          <div className="absolute top-1/2 bottom-1/2 -translate-y-1/2 -right-[250px] lg:-right-[320px] border-b w-[240px] lg:w-[300px] border-secondary-white"></div>
         </div>
         <div className="w-full lg:w-2/4 mt-4">
           <p className="text-secondary-white text-xs lg:text-sm">
@@ -193,7 +193,7 @@ const LandingPage = () => {
             <h1 className="text-xl lg:text-2xl font-bold text-primary-white">
               <span className="text-primary-color">02.</span>Work Experience
             </h1>
-            <div className="absolute w-[160px] lg:w-[400px] border-b -top-1/2 -bottom-1/2 -translate-y-1/2 right-0 lg:right-1 border-secondary-white"></div>
+            <div className="absolute w-[160px] lg:w-[400px] border-b -top-1/2 -bottom-1/2 -translate-y-1/2 hidden lg:right-1 border-secondary-white"></div>
           </div>
           <div className="w-full h-80 sm:h-64 xl:h-80 2xl:h-96 mt-4">
             <Carousel
